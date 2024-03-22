@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(3, 3, 70, 0.9);
+}
+header{
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(3, 3, 70, 0.9);
+}
+header h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+}
+main{
+    width: 100%;
+    height: 77%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main form{
+    width: 70%;
+    height: 300px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+main form .all{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 30px;
+}
+main form .all .degree-cel{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+main form .all .degree-far{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+input:hover{
+    box-shadow: 10px 10px;
+}
+label{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.btn-holder{
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+button{
+    width: 40%;
+    height: 50px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: 0.5s ease-in-out;
+    background-color: white;
+}
+
+button:hover{
+    border: 3px solid black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: aliceblue;
+    background-color:  rgba(3, 3, 70, 0.9);
+}
